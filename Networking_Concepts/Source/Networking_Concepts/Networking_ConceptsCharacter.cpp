@@ -8,6 +8,9 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Net/UnrealNetwork.h"
+#include "Engine/Engine.h"
+#include "MPProjectile.h"
 
 //////////////////////////////////////////////////////////////////////////
 // ANetworking_ConceptsCharacter
@@ -45,6 +48,16 @@ ANetworking_ConceptsCharacter::ANetworking_ConceptsCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	MaxHealth = 100.0f;
+	CurrentHealth = MaxHealth;
+
+	// Init projectile class
+	ProjectileClass = AMPProjectile::StaticClass();
+	
+	// Init fire rate
+	FireRate = 0.25f;
+	bIsFiringWeapon = false;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -74,8 +87,65 @@ void ANetworking_ConceptsCharacter::SetupPlayerInputComponent(class UInputCompon
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ANetworking_ConceptsCharacter::OnResetVR);
+
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ANetworking_ConceptsCharacter::StartFire);
 }
 
+//////////////////////////////////////////////////////////////////////////
+// Replicated Properties
+
+void ANetworking_ConceptsCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	//Replicate current health.
+	DOREPLIFETIME_CONDITION(ANetworking_ConceptsCharacter, CurrentHealth, COND_None);
+}
+
+void ANetworking_ConceptsCharacter::SetCurrentHealth(float healthValue)
+{
+	// Only change health value on the server and replicate the value down to clients.
+	if (GetLocalRole() == ROLE_Authority)
+	{
+		CurrentHealth = FMath::Clamp(healthValue, 0.f, MaxHealth);
+		OnHealthUpdate(); // Necessary, because the Server will not receive the RepNotify!
+	}
+}
+
+float ANetworking_ConceptsCharacter::TakeDamage(float DamageTaken, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	float damageApplied = CurrentHealth - DamageTaken;
+	SetCurrentHealth(damageApplied);
+	return damageApplied;
+}
+
+void ANetworking_ConceptsCharacter::StartFire()
+{
+	if (!bIsFiringWeapon)
+	{
+		bIsFiringWeapon = true;
+		UWorld* World = GetWorld();
+		World->GetTimerManager().SetTimer(FiringTimer, this, &ANetworking_ConceptsCharacter::StopFire, FireRate, false);
+		HandleFire();
+	}
+}
+
+void ANetworking_ConceptsCharacter::StopFire()
+{
+	bIsFiringWeapon = false;
+}
+
+void ANetworking_ConceptsCharacter::HandleFire_Implementation()
+{
+	FVector spawnLocation = GetActorLocation() + (GetControlRotation().Vector() * 100.0f) + (GetActorUpVector() * 50.0f);
+	FRotator spawnRotation = GetControlRotation();
+
+	FActorSpawnParameters spawnParams;
+	spawnParams.Instigator = GetInstigator();
+	spawnParams.Owner = this;
+
+	AMPProjectile* spawnedProjectile = GetWorld()->SpawnActor<AMPProjectile>(spawnLocation, spawnRotation, spawnParams);
+}
 
 void ANetworking_ConceptsCharacter::OnResetVR()
 {
@@ -131,4 +201,38 @@ void ANetworking_ConceptsCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+void ANetworking_ConceptsCharacter::OnRep_CurrentHealth()
+{
+	OnHealthUpdate();
+}
+
+void ANetworking_ConceptsCharacter::OnHealthUpdate()
+{
+	// Client-specific functionality
+	if (IsLocallyControlled())
+	{
+		FString healthMessage = FString::Printf(TEXT("You now have %f health remaining."), CurrentHealth);
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Blue, healthMessage);
+
+		if (CurrentHealth <= 0)
+		{
+			FString deathMessage = FString::Printf(TEXT("You have been killed."));
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, deathMessage);
+		}
+	}
+
+	// Server-specific functionality
+	if (GetLocalRole() == ROLE_Authority)
+	{
+		FString healthMessage = FString::Printf(TEXT("%s now has %f health remaining."), *GetFName().ToString(), CurrentHealth);
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, healthMessage);
+	}
+
+	// Functions that occur on all machines.
+	/*
+		Any special functionality that should occur as a result of damage or death should be placed here.
+	
+	*/
 }
