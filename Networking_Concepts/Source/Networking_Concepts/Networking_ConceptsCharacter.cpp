@@ -58,6 +58,7 @@ ANetworking_ConceptsCharacter::ANetworking_ConceptsCharacter()
 	// Init fire rate
 	FireRate = 0.25f;
 	bIsFiringWeapon = false;
+
 }
 
 //////////////////////////////////////////////////////////////////////////

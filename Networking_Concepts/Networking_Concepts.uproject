@@ -9,8 +9,16 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"CableComponent",
+				"ReplicationGraph"
 			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ReplicationGraph",
+			"Enabled": true
 		}
 	]
 }

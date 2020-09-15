@@ -1,0 +1,1417 @@
+﻿Log file open, 09/14/20 18:19:43
+LogInit: Display: Running engine for game: Networking_Concepts
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 83 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.148723
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin ReplicationGraph
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 9 3950X 16-Core Processor            , GPU: NVIDIA GeForce RTX 2080 Ti
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Engine.ini]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Engine.ini]
+[2020.09.15-01.19.43:674][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Engine.ini]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Engine.ini]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.15-01.19.43:674][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Engine.ini]
+[2020.09.15-01.19.43:674][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Engine.ini]
+[2020.09.15-01.19.43:679][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.15-01.19.43:679][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.15-01.19.43:680][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.15-01.19.43:680][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.15-01.19.43:680][  0]LogHAL: Display: Platform has ~ 64 GB [68632489984 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.15-01.19.43:680][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.15-01.19.43:680][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.15-01.19.43:680][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.15-01.19.43:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Scalability.ini]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.15-01.19.43:682][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Config/Windows/Engine.ini]
+[2020.09.15-01.19.43:682][  0]LogInit: Computer: DESKTOP-L7922FC
+[2020.09.15-01.19.43:682][  0]LogInit: User: ChristopherWhiting
+[2020.09.15-01.19.43:682][  0]LogInit: CPU Page size=4096, Cores=16
+[2020.09.15-01.19.43:682][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.15-01.19.43:682][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2020.09.15-01.19.43:682][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.15-01.19.43:682][  0]LogMemory: Process Physical Memory: 119.07 MB used, 119.07 MB peak
+[2020.09.15-01.19.43:682][  0]LogMemory: Process Virtual Memory: 109.68 MB used, 109.68 MB peak
+[2020.09.15-01.19.43:682][  0]LogMemory: Physical Memory: 21179.90 MB used,  44273.14 MB free, 65453.04 MB total
+[2020.09.15-01.19.43:682][  0]LogMemory: Virtual Memory: 5259.65 MB used,  134212472.00 MB free, 134217728.00 MB total
+[2020.09.15-01.19.43:686][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.15-01.19.43:710][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.15-01.19.43:711][  0]LogInit: Using OS detected language (en-US).
+[2020.09.15-01.19.43:711][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.15-01.19.43:713][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.15-01.19.43:851][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.15-01.19.43:880][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.15-01.19.43:880][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.15-01.19.43:982][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.15-01.19.43:982][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.15-01.19.43:982][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.15-01.19.43:982][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.15-01.19.44:070][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2020.09.15-01.19.44:070][  0]LogD3D11RHI:       11049/0/32726 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.09.15-01.19.44:072][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.15-01.19.44:072][  0]LogD3D11RHI:       0/0/32726 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.15-01.19.44:072][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.15-01.19.44:083][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.15-01.19.44:083][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.15-01.19.44:083][  0]LogWindows: EnumDisplayDevices:
+[2020.09.15-01.19.44:083][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2020.09.15-01.19.44:084][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
+[2020.09.15-01.19.44:084][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.09.15-01.19.44:084][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.09.15-01.19.44:084][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.09.15-01.19.44:084][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2020.09.15-01.19.44:084][  0]LogD3D11RHI:   Driver Version: 442.19 (internal:26.21.14.4219, unified:442.19)
+[2020.09.15-01.19.44:084][  0]LogD3D11RHI:      Driver Date: 1-29-2020
+[2020.09.15-01.19.44:084][  0]LogRHI: Texture pool is 7734 MB (70% of 11049 MB)
+[2020.09.15-01.19.44:133][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.15-01.19.44:134][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.15-01.19.44:134][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.15-01.19.44:134][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.15-01.19.44:154][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.09.15-01.19.44:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.15-01.19.44:388][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.15-01.19.44:389][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.15-01.19.44:389][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.15-01.19.44:389][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.15-01.19.44:389][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.15-01.19.44:389][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.15-01.19.44:389][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.15-01.19.44:389][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.15-01.19.44:389][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.15-01.19.44:389][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.15-01.19.44:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.15-01.19.44:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.15-01.19.44:417][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.15-01.19.44:425][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.15-01.19.44:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.15-01.19.44:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.15-01.19.44:447][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.15-01.19.44:455][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.15-01.19.44:463][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.15-01.19.44:486][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.15-01.19.44:486][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.15-01.19.44:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.15-01.19.44:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.15-01.19.44:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.15-01.19.44:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.15-01.19.44:522][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.15-01.19.44:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.15-01.19.44:530][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.15-01.19.44:536][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.15-01.19.44:580][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Intermediate/Shaders/WorkingDirectory/49796/).
+[2020.09.15-01.19.44:580][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ChristopherWhiting/AppData/Local/Temp/UnrealShaderWorkingDir/895ABADD49CFB449CCC6D4B2E93F734C/'.
+[2020.09.15-01.19.44:581][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.15-01.19.44:581][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.15-01.19.44:581][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.15-01.19.45:216][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.15-01.19.45:254][  0]LogDerivedDataCache: Loaded boot cache 0.04s 80MB C:/Users/ChristopherWhiting/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.15-01.19.45:254][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ChristopherWhiting/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.15-01.19.45:254][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.15-01.19.45:254][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.15-01.19.45:254][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.15-01.19.45:254][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.15-01.19.45:264][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.15-01.19.45:264][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.15-01.19.45:264][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.15-01.19.45:265][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ChristopherWhiting/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.15-01.19.45:265][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.15-01.19.45:265][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.15-01.19.45:307][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.15-01.19.45:307][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.15-01.19.45:325][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2020.09.15-01.19.45:513][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.15-01.19.45:599][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.15-01.19.45:599][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.15-01.19.45:599][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.15-01.19.45:599][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.15-01.19.45:599][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.15-01.19.45:612][  0]LogNetVersion: Networking_Concepts 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 252351434)
+[2020.09.15-01.19.45:917][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001F6EB442780), frame # 0
+[2020.09.15-01.19.45:917][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F6EB404A40), frame # 0
+[2020.09.15-01.19.45:918][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F6EB429E00), frame # 0
+[2020.09.15-01.19.45:960][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.037933 seconds
+[2020.09.15-01.19.45:965][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.15-01.19.45:965][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.15-01.19.45:965][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.15-01.19.46:215][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.15-01.19.46:218][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.15-01.19.46:438][  0]SourceControl: Source control is disabled
+[2020.09.15-01.19.46:438][  0]SourceControl: Source control is disabled
+[2020.09.15-01.19.46:441][  0]SourceControl: Source control is disabled
+[2020.09.15-01.19.46:443][  0]SourceControl: Source control is disabled
+[2020.09.15-01.19.46:448][  0]SourceControl: Source control is disabled
+[2020.09.15-01.19.46:631][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.15-01.19.46:646][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.15-01.19.46:647][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.15-01.19.46:684][  0]LogOcInput: OculusInput pre-init called
+[2020.09.15-01.19.46:693][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.15-01.19.46:693][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.15-01.19.46:746][  0]LogEngine: Initializing Engine...
+[2020.09.15-01.19.46:747][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.15-01.19.46:747][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.15-01.19.46:747][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.15-01.19.46:832][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.15-01.19.46:838][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.15-01.19.46:838][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F6F40FBC00), frame # 0
+[2020.09.15-01.19.46:838][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F6F4123380), frame # 0
+[2020.09.15-01.19.46:847][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.15-01.19.46:847][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.15-01.19.46:847][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.15-01.19.46:847][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.15-01.19.46:847][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.15-01.19.46:847][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.15-01.19.46:847][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.15-01.19.46:847][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.15-01.19.46:847][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.15-01.19.46:847][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.15-01.19.46:859][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.15-01.19.46:859][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.15-01.19.46:886][  0]LogAudioMixer: Display: Using Audio Device Headphones (WH-1000XM3 Stereo)
+[2020.09.15-01.19.46:888][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.15-01.19.46:890][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.15-01.19.46:890][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.15-01.19.46:891][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.15-01.19.46:891][  0]LogInit: FAudioDevice initialized.
+[2020.09.15-01.19.46:892][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.15-01.19.46:932][  0]LogDerivedDataCache: Saved boot cache 0.04s 80MB C:/Users/ChristopherWhiting/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.15-01.19.46:936][  0]LogInit: Texture streaming: Enabled
+[2020.09.15-01.19.46:948][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.15-01.19.46:948][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.15-01.19.46:950][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.15-01.19.47:003][  0]LogInit: Transaction tracking system initialized
+[2020.09.15-01.19.47:019][  0]BlueprintLog: New page: Editor Load
+[2020.09.15-01.19.47:071][  0]LocalizationService: Localization service is disabled
+[2020.09.15-01.19.47:183][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.15-01.19.47:183][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.15-01.19.47:244][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Content/' took 0.00s
+[2020.09.15-01.19.47:403][  0]SourceControl: Source control is disabled
+[2020.09.15-01.19.47:403][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.845
+[2020.09.15-01.19.47:403][  0]LightingResults: New page: Lighting Build
+[2020.09.15-01.19.47:404][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-01.19.47:404][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.15-01.19.47:404][  0]MapCheck: New page: Map Check
+[2020.09.15-01.19.47:404][  0]LightingResults: New page: Lighting Build
+[2020.09.15-01.19.47:420][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F6F40FBC00), frame # 0
+[2020.09.15-01.19.47:420][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F6F4123380), frame # 0
+[2020.09.15-01.19.47:421][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.09.15-01.19.47:472][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.09.15-01.19.47:472][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F6DEA1BE00), frame # 0
+[2020.09.15-01.19.47:472][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F6EFB8E480), frame # 0
+[2020.09.15-01.19.47:476][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.15-01.19.47:491][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.09.15-01.19.47:491][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.15-01.19.47:491][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.152ms to complete.
+[2020.09.15-01.19.47:491][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.088
+[2020.09.15-01.19.47:493][  0]LogUnrealEdMisc: Total Editor Startup Time, took 4.935
+[2020.09.15-01.19.47:622][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-01.19.47:627][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-01.19.47:632][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-01.19.47:637][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.15-01.19.47:644][  0]LogCollectionManager: Loaded 0 collections in 0.001655 seconds
+[2020.09.15-01.19.47:656][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Saved/Collections/' took 0.00s
+[2020.09.15-01.19.47:656][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Content/Developers/ChristopherWhiting/Collections/' took 0.00s
+[2020.09.15-01.19.47:656][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Content/Collections/' took 0.00s
+[2020.09.15-01.19.47:656][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3446 classes and 826 folders.
+[2020.09.15-01.19.47:657][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.15-01.19.47:690][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.15-01.19.47:691][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.09.15-01.19.47:774][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.15-01.19.47:776][  0]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.15-01.19.47:779][  0]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.15-01.19.47:832][  0]LogRenderer: Reallocating scene render targets to support 1616x756 Format 10 NumSamples 1 (Frame:1).
+[2020.09.15-01.19.47:904][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.15-01.19.47:904][  0]LogLoad: (Engine Initialization) Total time: 5.35 seconds
+[2020.09.15-01.19.47:904][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.15-01.19.47:934][  0]LogAssetRegistry: Asset discovery search completed in 2.6104 seconds
+[2020.09.15-01.19.47:937][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.09.15-01.19.47:938][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.15-01.19.53:210][302]LogSlate: Window 'Plugins' being destroyed
+[2020.09.15-01.19.53:213][302]LogSlate: Window 'Plugins' being destroyed
+[2020.09.15-01.19.53:213][302]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2020.09.15-01.19.57:599][813]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.15-01.19.57:637][813]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.09.15-01.19.57:637][813]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.09.15-01.19.57:663][813]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.15-01.20.08:019][855]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.09.15-01.20.12:666][406]Running C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Networking_Concepts.uproject" -game -rocket -progress
+[2020.09.15-01.20.12:970][406]Discovering modules, targets and source code for project...
+[2020.09.15-01.20.13:876][406]Binding IntelliSense data...
+[2020.09.15-01.20.15:296][406]Binding IntelliSense data... 100%
+[2020.09.15-01.20.15:297][406]Writing project files...
+[2020.09.15-01.20.18:314][406]Writing project files... 100%
+[2020.09.15-01.20.18:429][406]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.18:433][406]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.09.15-01.20.18:436][406]Candidate modules for hot reload:
+[2020.09.15-01.20.18:436][406]  Networking_Concepts
+[2020.09.15-01.20.18:437][406]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Networking_Concepts,8155 Networking_ConceptsEditor Win64 Development -Project="C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Networking_Concepts.uproject" "C:/Users/ChristopherWhiting/Documents/GitHub/UE4_Networking/Networking_Concepts/Networking_Concepts.uproject"  -IgnoreJunk]
+[2020.09.15-01.20.26:888][406]CompilerResultsLog: New page: Compilation - Sep 14, 2020, 11:20:26 AM
+[2020.09.15-01.20.26:888][406]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ChristopherWhiting\Documents\GitHub\UE4_Networking).
+[2020.09.15-01.20.26:888][406]CompilerResultsLog: Creating makefile for Networking_ConceptsEditor (no existing makefile)
+[2020.09.15-01.20.26:888][406]CompilerResultsLog: Parsing headers for Networking_ConceptsEditor
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ChristopherWhiting\Documents\GitHub\UE4_Networking\Networking_Concepts\Networking_Concepts.uproject" "C:\Users\ChristopherWhiting\Documents\GitHub\UE4_Networking\Networking_Concepts\Intermediate\Build\Win64\Networking_ConceptsEditor\Development\Networking_ConceptsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ChristopherWhiting\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.09.15-01.20.26:888][406]CompilerResultsLog: Reflection code generated for Networking_ConceptsEditor in 4.36416 seconds
+[2020.09.15-01.20.26:888][406]CompilerResultsLog: Building Networking_ConceptsEditor...
+[2020.09.15-01.20.26:888][406]CompilerResultsLog: Using Visual Studio 2019 14.27.29110 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.15-01.20.26:888][406]CompilerResultsLog: Building 15 actions with 32 processes...
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [1/15] Networking_Concepts.cpp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [2/15] HealingCableComponent.cpp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [3/15] Networking_Concepts.init.gen.cpp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [4/15] MPProjectile.gen.cpp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [5/15] HealingCableComponent.gen.cpp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [6/15] Networking_ConceptsGameMode.cpp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [7/15] Networking_ConceptsGameMode.gen.cpp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [8/15] Networking_ConceptsCharacter.gen.cpp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [9/15] MPProjectile.cpp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [10/15] Networking_ConceptsCharacter.cpp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [11/15] DAReplicationGraph.cpp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [12/15] DAReplicationGraph.gen.cpp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [13/15] UE4Editor-Networking_Concepts-8155.lib
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:      Creating library C:\Users\ChristopherWhiting\Documents\GitHub\UE4_Networking\Networking_Concepts\Intermediate\Build\Win64\UE4Editor\Development\Networking_Concepts\UE4Editor-Networking_Concepts-8155.lib and object C:\Users\ChristopherWhiting\Documents\GitHub\UE4_Networking\Networking_Concepts\Intermediate\Build\Win64\UE4Editor\Development\Networking_Concepts\UE4Editor-Networking_Concepts-8155.exp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [14/15] UE4Editor-Networking_Concepts-8155.dll
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:      Creating library C:\Users\ChristopherWhiting\Documents\GitHub\UE4_Networking\Networking_Concepts\Intermediate\Build\Win64\UE4Editor\Development\Networking_Concepts\UE4Editor-Networking_Concepts-8155.suppressed.lib and object C:\Users\ChristopherWhiting\Documents\GitHub\UE4_Networking\Networking_Concepts\Intermediate\Build\Win64\UE4Editor\Development\Networking_Concepts\UE4Editor-Networking_Concepts-8155.suppressed.exp
+[2020.09.15-01.20.26:888][406]CompilerResultsLog:   [15/15] Networking_ConceptsEditor.target
+[2020.09.15-01.20.26:888][406]CompilerResultsLog: Total time in Parallel executor: 2.59 seconds
+[2020.09.15-01.20.26:888][406]CompilerResultsLog: Total execution time: 8.39 seconds
+[2020.09.15-01.20.26:888][406]LogMainFrame: MainFrame: Module compiling took 8.455 seconds
+[2020.09.15-01.20.26:904][406]LogClass: Could not find existing class DAReplicationGraph in package /Script/Networking_Concepts for HotReload, assuming new class
+[2020.09.15-01.20.26:911][406]LogContentBrowser: Native class hierarchy updated for 'Networking_Concepts' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2020.09.15-01.20.26:912][406]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2020.09.15-01.20.26:955][406]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 3447 classes and 826 folders.
+[2020.09.15-01.20.26:955][406]Display: HotReload took  8.5s.
+[2020.09.15-01.20.26:959][406]Warning: HotReload operation took  8.5s.
+[2020.09.15-01.20.26:988][406]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.26:991][406]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.09.15-01.20.26:996][406]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.26:998][406]LogHotReload: New module detected: UE4Editor-Networking_Concepts-8155.dll
+[2020.09.15-01.20.27:050][407]LogHotReload: Starting Hot-Reload from IDE
+[2020.09.15-01.20.27:163][407]LogContentBrowser: Native class hierarchy updated for 'Networking_Concepts' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2020.09.15-01.20.27:163][407]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.09.15-01.20.27:175][407]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 3447 classes and 826 folders.
+[2020.09.15-01.20.27:178][407]Display: HotReload took  0.1s.
+[2020.09.15-01.20.27:302][407]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:372][408]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:448][409]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:509][410]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:583][411]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:615][412]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:647][413]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:680][414]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:689][415]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:697][416]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:705][417]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:714][418]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:722][419]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:731][420]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:739][421]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:747][422]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:756][423]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:764][424]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:772][425]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:781][426]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:789][427]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:798][428]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:806][429]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:814][430]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:822][431]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:831][432]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:839][433]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:848][434]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:856][435]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:864][436]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:872][437]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:881][438]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:888][439]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:897][440]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:905][441]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:914][442]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:922][443]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:931][444]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:939][445]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:947][446]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:956][447]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:964][448]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:972][449]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:981][450]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:989][451]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.27:997][452]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:005][453]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:014][454]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:022][455]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:031][456]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:039][457]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:048][458]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:055][459]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:064][460]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:072][461]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:080][462]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:089][463]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:098][464]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:106][465]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:114][466]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:122][467]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:131][468]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:139][469]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:148][470]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:155][471]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:163][472]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:172][473]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:181][474]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:189][475]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:197][476]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:205][477]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:214][478]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:222][479]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:231][480]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:239][481]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:247][482]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:255][483]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:264][484]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:272][485]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:281][486]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:289][487]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:298][488]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:305][489]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:314][490]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:322][491]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:331][492]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:339][493]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:347][494]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:355][495]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:364][496]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:372][497]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:381][498]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:390][499]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:397][500]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:405][501]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:414][502]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:423][503]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:430][504]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:439][505]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:448][506]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:456][507]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:464][508]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:472][509]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:480][510]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:489][511]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:497][512]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:505][513]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:514][514]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:522][515]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:531][516]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:539][517]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:548][518]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:555][519]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:564][520]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:572][521]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:581][522]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:589][523]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:597][524]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:605][525]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:614][526]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:622][527]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:630][528]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:639][529]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:647][530]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:655][531]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:664][532]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:672][533]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:680][534]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:689][535]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:697][536]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:705][537]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:714][538]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:722][539]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:731][540]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:739][541]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:747][542]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:756][543]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:765][544]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:772][545]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:780][546]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:789][547]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:797][548]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:806][549]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:815][550]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:823][551]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:831][552]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:839][553]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:847][554]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:855][555]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:864][556]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:872][557]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:880][558]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:889][559]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:898][560]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:906][561]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:914][562]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:923][563]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:931][564]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:939][565]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:947][566]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:955][567]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:964][568]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:972][569]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:980][570]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:989][571]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.28:997][572]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:006][573]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:015][574]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:023][575]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:031][576]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:039][577]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:047][578]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:056][579]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:064][580]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:073][581]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:081][582]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:090][583]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:098][584]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:106][585]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:114][586]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:123][587]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:131][588]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:139][589]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:147][590]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:157][591]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:165][592]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:174][593]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:183][594]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:191][595]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:199][596]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:207][597]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:215][598]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:224][599]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:233][600]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:241][601]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:249][602]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:257][603]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:266][604]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:274][605]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:283][606]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:291][607]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:301][608]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:314][609]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:322][610]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:330][611]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:339][612]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:347][613]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:355][614]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:363][615]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:372][616]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:380][617]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:389][618]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:397][619]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:405][620]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:413][621]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:421][622]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:430][623]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:438][624]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:447][625]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:455][626]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:463][627]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:472][628]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:481][629]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:488][630]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:497][631]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:505][632]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:514][633]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:522][634]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:530][635]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:538][636]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:547][637]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:555][638]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:563][639]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:571][640]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:580][641]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:589][642]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:597][643]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:605][644]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:613][645]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:622][646]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:630][647]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:639][648]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:646][649]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:655][650]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:663][651]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:672][652]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:680][653]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:688][654]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:697][655]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:705][656]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:714][657]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:722][658]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:730][659]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:738][660]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:746][661]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:755][662]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:764][663]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:772][664]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:780][665]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:788][666]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:797][667]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:805][668]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:813][669]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:821][670]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:830][671]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:838][672]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:846][673]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:855][674]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:864][675]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:871][676]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:880][677]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:888][678]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:896][679]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:905][680]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:913][681]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:922][682]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:930][683]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.29:950][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.09.15-01.20.30:013][684]LogSlate: Window 'Networking_Concepts - Unreal Editor' being destroyed
+[2020.09.15-01.20.30:013][684]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.09.15-01.20.30:131][684]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.09.15-01.20.30:133][685]Cmd: QUIT_EDITOR
+[2020.09.15-01.20.30:133][685]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.09.15-01.20.30:140][685]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.09.15-01.20.30:164][685]LogExit: Preparing to exit.
+[2020.09.15-01.20.30:420][685]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.15-01.20.30:420][685]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.15-01.20.30:420][685]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.15-01.20.30:420][685]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.15-01.20.30:420][685]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.15-01.20.30:420][685]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.15-01.20.30:420][685]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.09.15-01.20.30:420][685]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-01.20.30:425][685]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.09.15-01.20.30:429][685]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.09.15-01.20.30:429][685]LogExit: Editor shut down
+[2020.09.15-01.20.30:429][685]LogExit: Transaction tracking system shut down
+[2020.09.15-01.20.30:557][685]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001F6EB442780), frame # 2685
+[2020.09.15-01.20.30:558][685]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F6EB404A40), frame # 2685
+[2020.09.15-01.20.30:558][685]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F6EB429E00), frame # 2685
+[2020.09.15-01.20.30:564][685]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F6DEA1BE00), frame # 2685
+[2020.09.15-01.20.30:564][685]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F6EFB8E480), frame # 2685
+[2020.09.15-01.20.30:583][685]LogExit: Object subsystem successfully closed.
+[2020.09.15-01.20.30:623][685]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module Networking_Concepts (796)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (794)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module SceneOutliner (792)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module AddContentDialog (790)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module WidgetCarousel (789)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module EditorWidgets (786)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module CollectionManager (784)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module StatsViewer (782)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (780)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module FoliageEdit (778)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module LandscapeEditor (776)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module MeshPaintMode (774)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (772)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module ActorPickerMode (770)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (768)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (766)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module AutomationWorker (764)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module SteamVREditor (762)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module OculusMR (760)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module GooglePADEditor (758)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (756)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (754)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (752)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (750)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (748)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (746)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (744)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (742)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (740)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module WebMMedia (738)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (736)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (734)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module SequenceRecorder (733)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (730)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (728)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (726)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (724)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (722)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (720)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (718)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (716)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (714)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (712)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module PlanarCut (710)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module CharacterAI (708)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module TextureAlignMode (706)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module BspMode (704)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module PlacementMode (703)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module GeometryMode (700)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (698)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module SmartSnapping (696)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module SessionServices (694)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module MeshPaint (692)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module ViewportSnapping (690)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module ViewportInteraction (688)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module ClothPainter (686)
+[2020.09.15-01.20.30:644][685]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (685)
+[2020.09.15-01.20.30:645][685]LogModuleManager: Shutting down and abandoning module LogVisualizer (682)
+[2020.09.15-01.20.30:645][685]LogModuleManager: Shutting down and abandoning module IntroTutorials (680)
+[2020.09.15-01.20.30:645][685]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (679)
+[2020.09.15-01.20.30:645][685]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (676)
+[2020.09.15-01.20.30:645][685]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (674)
+[2020.09.15-01.20.30:645][685]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (672)
+[2020.09.15-01.20.30:645][685]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (671)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (668)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (666)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (664)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (662)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module TraceInsights (660)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module TraceServices (659)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (656)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (654)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module InputBindingEditor (652)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module MergeActors (650)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (648)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module LocalizationService (647)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module HardwareTargeting (644)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (642)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module UndoHistory (640)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module XmlParser (638)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module Blutility (636)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (634)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (633)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (630)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module SettingsEditor (628)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module ProjectLauncher (626)
+[2020.09.15-01.20.31:136][685]LogModuleManager: Shutting down and abandoning module SessionFrontend (624)
+[2020.09.15-01.20.31:137][685]LogModuleManager: Shutting down and abandoning module ProfilerClient (622)
+[2020.09.15-01.20.31:137][685]LogModuleManager: Shutting down and abandoning module DeviceManager (620)
+[2020.09.15-01.20.31:137][685]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (619)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module AutomationController (616)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module AutomationWindow (614)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module Layers (612)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (610)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module DetailCustomizations (608)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module PackagesDialog (606)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (604)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module Persona (602)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (601)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module AnimGraph (599)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module Kismet (596)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module KismetWidgets (595)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module GraphEditor (592)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module StructViewer (590)
+[2020.09.15-01.20.31:169][685]LogModuleManager: Shutting down and abandoning module ClassViewer (588)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module Toolbox (586)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module ModuleUI (584)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module OutputLog (582)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module GammaUI (580)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module Documentation (578)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module LiveCoding (576)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module LevelSequence (574)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (572)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module MovieScene (570)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (568)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module LauncherPlatform (566)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module AnalyticsET (564)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module PortalServices (562)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module PortalRpc (560)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module MessagingRpc (558)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (556)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module AudioMixerCore (555)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module AIModule (552)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module GameplayDebugger (551)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module AITestSuite (549)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module NavigationSystem (547)
+[2020.09.15-01.20.31:170][685]LogModuleManager: Shutting down and abandoning module ProfilerService (544)
+[2020.09.15-01.20.31:309][685]LogModuleManager: Shutting down and abandoning module TaskGraph (542)
+[2020.09.15-01.20.31:309][685]LogModuleManager: Shutting down and abandoning module ScreenshotTools (540)
+[2020.09.15-01.20.31:309][685]LogModuleManager: Shutting down and abandoning module SynthesisEditor (538)
+[2020.09.15-01.20.31:309][685]LogModuleManager: Shutting down and abandoning module Synthesis (536)
+[2020.09.15-01.20.31:309][685]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (534)
+[2020.09.15-01.20.31:309][685]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (532)
+[2020.09.15-01.20.31:309][685]LogModuleManager: Shutting down and abandoning module OculusEditor (530)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module OculusInput (528)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (526)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module GooglePAD (524)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module EditableMesh (522)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (520)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module CableComponent (518)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module AudioCapture (516)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (515)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module AssetTags (512)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (510)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (508)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module AppleImageUtils (506)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module AndroidPermission (504)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (502)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (500)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module TemplateSequence (498)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (496)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (494)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (492)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (490)
+[2020.09.15-01.20.31:310][685]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (489)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (486)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (484)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module MediaCompositing (482)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module ImgMedia (480)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (478)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (476)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (474)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (472)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (470)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (468)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (466)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module MeshConversion (464)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module DynamicMesh (462)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (460)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module GeometricObjects (458)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (456)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (455)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (452)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (450)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (448)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (446)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module ChaosNiagara (444)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module FractureEditor (442)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (440)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module ChaosCloth (438)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module BackChannel (436)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (434)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module AutomationUtils (432)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module AlembicImporter (430)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module AlembicLibrary (429)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module GeometryCache (428)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (427)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (422)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (420)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (418)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module PluginBrowser (416)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (414)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (412)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (410)
+[2020.09.15-01.20.31:316][685]LogModuleManager: Shutting down and abandoning module CurveEditorTools (408)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (406)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module CryptoKeys (404)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (402)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (400)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module UObjectPlugin (398)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (396)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (394)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (392)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (390)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module GitSourceControl (388)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module SourceControl (387)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (384)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (382)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (380)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (378)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (376)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (374)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (372)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module Paper2DEditor (370)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module SoundFields (366)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module SignificanceManager (364)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (362)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module ReplicationGraph (360)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.09.15-01.20.31:317][685]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.09.15-01.20.31:418][685]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.09.15-01.20.31:519][685]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.09.15-01.20.31:519][685]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.09.15-01.20.31:519][685]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.09.15-01.20.31:520][685]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.09.15-01.20.31:520][685]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.09.15-01.20.31:520][685]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.09.15-01.20.31:520][685]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.09.15-01.20.31:520][685]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.09.15-01.20.31:520][685]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.09.15-01.20.31:520][685]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.09.15-01.20.31:520][685]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.09.15-01.20.31:520][685]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.09.15-01.20.31:520][685]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.09.15-01.20.31:521][685]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.09.15-01.20.31:522][685]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.09.15-01.20.31:523][685]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.09.15-01.20.31:524][685]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.09.15-01.20.31:524][685]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.09.15-01.20.31:524][685]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.09.15-01.20.31:524][685]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.09.15-01.20.31:524][685]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.09.15-01.20.31:524][685]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.09.15-01.20.31:524][685]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.09.15-01.20.31:524][685]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.09.15-01.20.31:524][685]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.09.15-01.20.31:524][685]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.09.15-01.20.31:525][685]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.09.15-01.20.31:527][685]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.09.15-01.20.31:528][685]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.09.15-01.20.31:528][685]LogHMD: Freeing OpenVRDLLHandle.
+[2020.09.15-01.20.31:528][685]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.09.15-01.20.31:528][685]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.09.15-01.20.31:528][685]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.09.15-01.20.31:528][685]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.09.15-01.20.31:528][685]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.09.15-01.20.31:528][685]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.09.15-01.20.31:528][685]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.09.15-01.20.31:537][685]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.09.15-01.20.31:537][685]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.09.15-01.20.31:537][685]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B23E1F304-4BC1-3BC8-2633-5785E7FC3A2E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=f890970249ff15df196b588c30e27c0b%7C9e57b8a904d648f3b33598737b7acc22%7Cd54e0f1a-a990-4b1f-b1dc-ebe89e1e6176&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.09.15-01.20.31:565][685]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.09.15-01.20.31:566][685]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.09.15-01.20.31:567][685]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.09.15-01.20.31:567][685]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.09.15-01.20.31:567][685]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.09.15-01.20.31:567][685]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.09.15-01.20.31:567][685]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.09.15-01.20.31:567][685]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.09.15-01.20.31:567][685]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.09.15-01.20.31:567][685]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.09.15-01.20.31:567][685]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.09.15-01.20.31:567][685]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.09.15-01.20.31:568][685]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.09.15-01.20.31:568][685]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.09.15-01.20.31:568][685]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.09.15-01.20.31:568][685]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.09.15-01.20.31:568][685]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.09.15-01.20.31:568][685]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.09.15-01.20.31:568][685]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.09.15-01.20.31:568][685]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.09.15-01.20.31:568][685]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.09.15-01.20.31:568][685]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.09.15-01.20.31:568][685]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.09.15-01.20.31:568][685]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.09.15-01.20.31:569][685]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.09.15-01.20.31:569][685]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.09.15-01.20.31:569][685]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.09.15-01.20.31:569][685]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.09.15-01.20.31:569][685]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.09.15-01.20.31:569][685]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.09.15-01.20.31:569][685]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.09.15-01.20.31:569][685]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.09.15-01.20.32:069][685]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.09.15-01.20.32:069][685]LogD3D11RHI: Shutdown
+[2020.09.15-01.20.32:069][685]LogD3D11RHI: CleanupD3DDevice
+[2020.09.15-01.20.32:096][685]LogExit: Exiting.
+[2020.09.15-01.20.32:111][685]Log file closed, 09/14/20 18:20:32
